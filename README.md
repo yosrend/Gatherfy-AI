@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Gatherfy AI Logo](#)
+![Gatherfy AI Logo](src/image/gatherfy-fav.png)
 
 **Intelligent Event Creation & Management Platform**
 

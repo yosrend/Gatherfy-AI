@@ -7,8 +7,9 @@ import { Separator } from './ui/separator';
 import { Input } from './ui/input';
 import { Badge } from './ui/badge';
 import { PlaceholdersAndVanishInput } from './ui/placeholders-and-vanish-input';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 import { Event } from '../App';
+import logo from '../assets/logo';
 
 interface LandingPageProps {
   onGetStarted: () => void;
@@ -219,6 +220,14 @@ export function LandingPage({ onGetStarted, onEventGenerated, onLogin }: Landing
         <div className="container mx-auto px-4">
           <div className="max-w-5xl mx-auto">
             <div className="text-center mb-12">
+              {/* Logo */}
+              <div className="mb-6">
+                <img
+                  src={logo}
+                  alt="Gatherfy AI Logo"
+                  className="w-20 h-20 mx-auto mb-4"
+                />
+              </div>
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary mb-6">
                 <Sparkles className="w-4 h-4" />
                 <span className="text-sm font-medium">AI-Powered Event Management</span>

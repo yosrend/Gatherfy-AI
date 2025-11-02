@@ -6,7 +6,7 @@ import { Badge } from './ui/badge';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from './ui/tabs';
 import { Separator } from './ui/separator';
 import { Event } from '../App';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 import { GuestImporter } from './GuestImporter';
 import {
   Sidebar,

@@ -4,7 +4,13 @@
   "private": true,
   "type": "module",
   "description": "AI-Powered Event Management Platform",
-  "keywords": ["event-management", "ai", "react", "typescript", "supabase"],
+  "keywords": [
+    "event-management",
+    "ai",
+    "react",
+    "typescript",
+    "supabase"
+  ],
   "author": "Gatherfy Team",
   "license": "MIT",
   "homepage": "https://github.com/yosrend/Gatherfy-AI#readme",
@@ -59,7 +65,7 @@
     "react-resizable-panels": "^2.1.7",
     "recharts": "^2.15.2",
     "sonner": "^2.0.3",
-    "tailwind-merge": "^2.5.4",
+    "tailwind-merge": "^2.6.0",
     "vaul": "^1.1.2"
   },
   "devDependencies": {

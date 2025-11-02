@@ -5,7 +5,8 @@ import { Input } from './ui/input';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/card';
 import { Label } from './ui/label';
 import { Separator } from './ui/separator';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
+import logo from '../assets/logo';
 
 interface LoginProps {
   onLogin: (email: string, role: 'admin' | 'user') => void;
@@ -59,10 +60,15 @@ export function Login({ onLogin }: LoginProps) {
     <div className="min-h-screen flex items-center justify-center p-6 bg-background">
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
-          <div className="inline-flex items-center justify-center w-16 h-16 rounded-xl bg-primary text-primary-foreground mb-4">
-            <Sparkles className="w-8 h-8" />
+          {/* Logo */}
+          <div className="mb-4">
+            <img
+              src={logo}
+              alt="Gatherfy AI Logo"
+              className="w-16 h-16 mx-auto mb-2"
+            />
           </div>
-          <h1 className="mb-2">AI Event Creator</h1>
+          <h1 className="mb-2">Gatherfy AI</h1>
           <p className="text-muted-foreground">Sign in to manage your events</p>
         </div>
 
